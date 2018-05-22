@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 session_start();
 if(isset($_SESSION["user_id"])){
 $loggedOnUser=$_SESSION["user_id"];
@@ -10,6 +10,7 @@ else  {
   </script>";
   header('Location: http://localhost/FA15-BCS-034-6A-LAssignment4/loginpage.php');
 }
+//
 ?> 
 
 <!DOCTYPE html>
