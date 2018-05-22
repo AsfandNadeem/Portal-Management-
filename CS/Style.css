@@ -1,0 +1,31 @@
+th {
+    height: 30px;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+dt{font-weight: bold;}
+.row{
+    padding: 1%;   
+}
+
+.navbar{
+    background-color: blanchedalmond;
+}
+
+.dropdown:hover > .dropdown-menu
+{
+    display: block;
+}
+
+#upperbar{
+    color: white;
+    background-color: #545B62;
+}
+.show>.btn-secondary.dropdown-toggle {
+    color:blueviolet;
+    background-color: white;
+    border-color: white;
+}
+
